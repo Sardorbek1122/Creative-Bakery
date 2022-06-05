@@ -37,10 +37,10 @@
     letter-spacing: -0.01em;
   }
 
-  .wrapper-static {
+  &__wrapper-static {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    text-align: center
+    text-align: center;
   }
 
   &__statistic-num {
@@ -64,10 +64,10 @@
       @include fontParams (56px, 85%, 400);
     }
 
-    .wrapper-static {
+    &__wrapper-static {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      text-align: center
+      text-align: center;
     }
   }
 
@@ -79,7 +79,7 @@
       margin-top: 80px;
     }
 
-    .wrapper-static {
+    &__wrapper-static {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       text-align: start;
